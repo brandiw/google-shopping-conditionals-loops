@@ -1,7 +1,8 @@
 {
   "name": "google-shopping-conditionals-loops",
   "scripts": {
-    "lint:js": "node_modules/eslint/bin/eslint.js js --fix; exit 0"
+    "lint:js": "node_modules/eslint/bin/eslint.js js --fix; exit 0",
+    "start": "node_modules/browser-sync/bin/browser-sync.js start --server . --files ."
   },
   "author": "",
   "license": "MIT",
